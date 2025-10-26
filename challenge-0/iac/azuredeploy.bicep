@@ -1,8 +1,8 @@
 @allowed([
-  'swedencentral'
+  'italynorth'
 ])
-@description('Azure location where resources should be deployed (e.g., swedencentral)')
-param location string = 'swedencentral'
+@description('Azure location where resources should be deployed')
+param location string = 'italynorth'
 
 @description('Friendly name for your Azure AI Foundry hub resource')
 param aiFoundryName string = 'aifoundry'
